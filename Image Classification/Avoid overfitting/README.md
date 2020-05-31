@@ -17,7 +17,7 @@ Some methods to avoid overfitting
    - Early stopping
    - Regularization
 
-Sources:
+Useful sources:
 
   -  https://elitedatascience.com/overfitting-in-machine-learning
   - https://keras.rstudio.com/articles/tutorial_overfit_underfit.html
