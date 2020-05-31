@@ -19,7 +19,7 @@ Some methods to avoid overfitting
 
 Sources:
 
-    https://elitedatascience.com/overfitting-in-machine-learning
-    https://keras.rstudio.com/articles/tutorial_overfit_underfit.html
-    https://towardsdatascience.com/dont-overfit-how-to-prevent-overfitting-in-your-deep-learning-models-63274e552323
+  -  https://elitedatascience.com/overfitting-in-machine-learning
+  - https://keras.rstudio.com/articles/tutorial_overfit_underfit.html
+  -  https://towardsdatascience.com/dont-overfit-how-to-prevent-overfitting-in-your-deep-learning-models-63274e552323
 
