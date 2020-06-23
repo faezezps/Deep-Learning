@@ -60,4 +60,8 @@ Note: In model three, both paths in inception module are the same!
 
 
 ## ***Conclusion***
-Using Softmax or Relu activations were wrong decisions. Using stacked LSTM and iception module did not helped! However, there are a lot of different ways that we could experiment here.
+- Using Softmax activations was wrong. The accuracy did not changed. (Because the number of outputs of dense was 1 instead of 2.)
+
+- Relu activation was also wrong decision here. 
+
+- Using stacked LSTM and iception module did not helped! However, there are a lot of different ways that we could experiment here.
