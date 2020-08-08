@@ -58,8 +58,7 @@ Different models have been implemented. The table below corresponds to my best m
 Here is the visualization of some pictures. The points have been predicted by some of my implemented models. For each of the models below, the mean square error and the loss has been visualized.
 
 Model 29:
-
-![slide2](model29_pic.png) <img src="model29_mae.png" width="300" height="300"> <img src="model29_loss.png" width="300" height="300">
+<img src="model29_pic.png" width="300" height="300"> <img src="model29_mae.png" width="250" height="250"> <img src="model29_loss.png" width="250" height="300">
 
 Model 28:
 
