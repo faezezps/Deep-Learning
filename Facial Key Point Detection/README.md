@@ -55,23 +55,24 @@ Different models have been implemented. The table below corresponds to my best m
 
 
 
-
-
-
-\subsection{Results}
+## ***Results***
 Here is the visualization of some pictures. The points have been predicted by some of my implemented models. For each of the models below, the mean square error and the loss has been visualized.
 
 Model 29:
+
 ![slide2](model29_pic.png)  ![slide3](model29_mae.png)   ![slide4](model29_loss.png)
 
 Model 28:
+
 ![slide5](model28_pic.png)  ![slide6](model28_mae.png)   ![slide7](model28_loss.png)
 
 Model 27:
+
 ![slide8](model27_pic.png)  ![slide9](model27_mae.png)   ![slide10](model27_loss.png)
 
 
 Model 24:
+
 ![slide11](model24_pic.png)  ![slide12](model24_mae.png)   ![slide13](model24_loss.png)
 
 
