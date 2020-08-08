@@ -6,7 +6,7 @@ Facial Key Point Detection is a computer vision problem. In this problem, the co
 
 ## ***Solution***
 ### ***Architectures*** 
-In order to do this task, different models can be used. However, as the features are needed to do the task, CNNs should be utilized to extract the features. Therefore, my first implemented models are simple CNNs.I have also checked some related papers. Most of the works (that I have seen) use CNNs for feature extraction and they use some FC layers to predict the final points. (E.g., [Colaco and Han, 2020](#r1),[Longpre and Sohmshetty, 2016]) In this project, LSTM layers have also been used in some models. Actually the main goal was utilizing LSTM for key points detection to see how the results will be changed.
+In order to do this task, different models can be used. However, as the features are needed to do the task, CNNs should be utilized to extract the features. Therefore, my first implemented models are simple CNNs.I have also checked some related papers. Most of the works (that I have seen) use CNNs for feature extraction and they use some FC layers to predict the final points. (E.g., [Colaco and Han, 2020](#r1),[Longpre and Sohmshetty, 2016](#r2) In this project, LSTM layers have also been used in some models. Actually the main goal was utilizing LSTM for key points detection to see how the results will be changed.
 
 
 ### ***Loss Function*** 
@@ -86,5 +86,6 @@ tection with convolutional neural networks. In 2020 International Conference
 on Artificial Intelligence in Information and Communication (ICAIIC), pages
 671–674. IEEE.
 
-[Longpre and Sohmshetty, 2016] Longpre, S. and Sohmshetty, A. (2016). Facial
+<a name="r2" />[Longpre and Sohmshetty, 2016]
+Longpre, S. and Sohmshetty, A. (2016). Facial
 keypoint detection.
