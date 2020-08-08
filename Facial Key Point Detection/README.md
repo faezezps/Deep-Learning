@@ -14,7 +14,7 @@ Choosing the right loss function is one of the most important decisions in these
 
 ![slide1](fc.png)
 
-Therefore, I utilized this loss function to train my models. (Helpful source in this regard: https://stackoverflow.com/questions/43855162/rmse-rmsle-loss-function-in-keras/43863854})
+Therefore, I utilized this loss function to train my models. (Helpful source for implementing this part: https://stackoverflow.com/questions/43855162/rmse-rmsle-loss-function-in-keras/43863854})
 
 
 ## ***Experiment***
@@ -67,16 +67,12 @@ Model 28:
 
 Model 27:
 
-
 <img src="model27_pic.png" width="300" height="300"> <img src="model27_mae.png" width="250" height="250"> <img src="model27_loss.png" width="250" height="300">
 
 
 Model 24:
 
-![slide11](model24_pic.png)  ![slide12](model24_mae.png)   ![slide13](model24_loss.png)
-
-
-
+<img src="model24_pic.png" width="300" height="300"> <img src="model24_mae.png" width="250" height="250"> <img src="model24_loss.png" width="250" height="300">
 
 
 ## ***Conclusion***
