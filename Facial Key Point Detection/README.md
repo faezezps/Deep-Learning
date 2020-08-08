@@ -24,7 +24,7 @@ The input to the model is a picture in a size of $96\times 96$.
 And the output is a vector in size of thirty. This vector is consists of the coordinates of fifteen points.
 
 ### ***Model*** 
-Different models have been implemented. The table below corresponds to my best model.
+Different models have been implemented. The table below corresponds to my best model. (Model 29)
 
 
 |Layer | Name            | Size         |
