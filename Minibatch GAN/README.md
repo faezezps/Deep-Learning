@@ -22,7 +22,7 @@ In this section, the implementation will be explained. Different ideas have been
 ### ***Dataset***
 Two datasets from Keras library have been used in this project.
 
-- MNIST: This dataset consists of images of 10 digits. It can be used for classification. Actually, it has 10 classes of data.
+- MNIST: This dataset consists of images of 10 digits. It can be used for classification. Actually, it has 10 classes of data. [Mnist Dataset](#ref)
 - Cifar10: This dataset is consists of colorful images in 10 categories. These categories are airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. [Cifar Dataset](#ref)
 
 
