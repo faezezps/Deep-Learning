@@ -8,9 +8,9 @@ Generative Adversarial Networks (GANs) are the networks that consist of two part
 The simple GAN model (the baseline of this project), can build a generator which can generate good samples. However, sometimes these generated samples (which can also be labeled as real in discriminator) are not the perfect result that we want. For example, one problem that can be seen while generating the images is Mode Collapse.
 
 " One of the main failure modes for GAN is for the generator to collapse to a parameter setting where it always emits the same point.
-When collapse to a single-mode is imminent, the gradient of the discriminator may point in similar directions for many similar points.  Because the discriminator processes each example independently, there is no coordination between its gradients, and thus no mechanism to tell the outputs of the generator to become more dissimilar to each other. Instead, all outputs race toward a single point that the discriminator currently believes is highly realistic. "[Salimans et al., 2016]
+When collapse to a single-mode is imminent, the gradient of the discriminator may point in similar directions for many similar points.  Because the discriminator processes each example independently, there is no coordination between its gradients, and thus no mechanism to tell the outputs of the generator to become more dissimilar to each other. Instead, all outputs race toward a single point that the discriminator currently believes is highly realistic. "[Salimans et al., 2016](#ref)
 
-When the generator model only some parts or modes of the data distribution, we call the mode collapse has happened. [Arora et al., 2017][Dieng et al., 2019]
+When the generator model only some parts or modes of the data distribution, we call the mode collapse has happened. [Arora et al., 2017](#ref) [Dieng et al., 2019](#ref)
 
 In other words, Mode collapse refers to a problem that the generator can not generate all the categories available in the dataset. For example, in the case of MNIST, it generates just one same number perfectly in a way that discriminator will give a real label to it. However, it can not generate all the numbers. This problem can happen when the items (different classes) in a dataset are too close to each other.
 
@@ -23,7 +23,7 @@ In this section, the implementation will be explained. Different ideas have been
 Two datasets from Keras library have been used in this project.
 
 - MNIST: This dataset consists of images of 10 digits. It can be used for classification. Actually, it has 10 classes of data.
-- Cifar10: This dataset is consists of colorful images in 10 categories. These categories are airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. [Cifar Dataset] 
+- Cifar10: This dataset is consists of colorful images in 10 categories. These categories are airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. [Cifar Dataset](#ref)
 
 
 ### ***Method***
