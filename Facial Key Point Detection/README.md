@@ -10,8 +10,7 @@ In order to do this task, different models can be used. However, as the features
 
 
 ### ***Loss Function*** 
-Choosing the right loss function is one of the most important decisions in these models. As the points are some float numbers, the task is a kind of regression problem. Two different regression losses %can be used in this regard.
-has been used in this regard. However, the results were not acceptable as the models were too weak. Therefore, I tried to check which loss has been used in other works. According to a paper \cite{longpre2016facial} which has been published in Stamford, the loss function should be as follow:
+Choosing the right loss function is one of the most important decisions in these models. As the points are some float numbers, the task is a kind of regression problem. Two different regression losses have been used in this regard. However, the results were not acceptable as the models were too weak. Therefore, I tried to check which loss has been used in other works. According to a paper \cite{longpre2016facial} which has been published in Stanford, the loss function should be as follow:
 
 ![slide1](fc.png)
 
