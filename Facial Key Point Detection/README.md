@@ -1,4 +1,4 @@
-# **Sentiment Analysis**
+# **Facial Key Point Detection**
 
 ## ***Problem Definition***
 Facial Key Point Detection is a computer vision problem. In this problem, the coordinates of the key points should be predicted by considering the facial features.
