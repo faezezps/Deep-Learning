@@ -42,7 +42,7 @@ To maximize this distance, I have defined a new loss function for the combined m
 # -----------------------------------------------------------
 image
 
-<img width="200" src="https://render.githubusercontent.com/render/math?math=New Loss \downarrow = \frac{1}{Mean Square Error \uparrow}">
+<img width="200" height="200" src="https://render.githubusercontent.com/render/math?math=New Loss \downarrow = \frac{1}{Mean Square Error \uparrow}">
 
 formula
 ![formula](https://render.githubusercontent.com/render/math?math=New Loss \downarrow = \frac{1}{Mean Square Error \uparrow})
