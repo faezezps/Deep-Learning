@@ -6,7 +6,7 @@ Facial Key Point Detection is a computer vision problem. In this problem, the co
 
 ## ***Solution***
 ### ***Architectures*** 
-In order to do this task, different models can be used. However, as the features are needed to do the task, CNNs should be utilized to extract the features. Therefore, my first implemented models are simple CNNs.I have also checked some related papers. Most of the works (that I have seen) use CNNs for feature extraction and they use some FC layers to predict the final points. (E.g., \cite{colaco2020facial}, \cite{longpre2016facial}) In this project, LSTM layers have also been used in some models.
+In order to do this task, different models can be used. However, as the features are needed to do the task, CNNs should be utilized to extract the features. Therefore, my first implemented models are simple CNNs.I have also checked some related papers. Most of the works (that I have seen) use CNNs for feature extraction and they use some FC layers to predict the final points. (E.g., [Colaco and Han, 2020],[Longpre and Sohmshetty, 2016]) In this project, LSTM layers have also been used in some models.
 
 
 ### ***Loss Function*** 
@@ -59,7 +59,7 @@ Here is the visualization of some pictures. The points have been predicted by so
 
 Model 29:
 
-![slide2](model29_pic.png)  ![slide3](model29_mae.png)   ![slide4](model29_loss.png)
+![slide2](model29_pic.png)![slide3](model29_mae.png)![slide4](model29_loss.png)
 
 Model 28:
 
@@ -80,3 +80,13 @@ Model 24:
 
 ## ***Conclusion***
 In this project, I implemented thirty-one models for facial keypoint detection.  The four best of them have been shown in the report. The architecture of the best model (in my opinion) has been shown in the table.
+
+
+## ***References***
+[Colaco and Han, 2020] Colaco, S. and Han, D. S. (2020). Facial keypoint de-
+tection with convolutional neural networks. In 2020 International Conference
+on Artificial Intelligence in Information and Communication (ICAIIC), pages
+671–674. IEEE.
+
+[Longpre and Sohmshetty, 2016] Longpre, S. and Sohmshetty, A. (2016). Facial
+keypoint detection.
