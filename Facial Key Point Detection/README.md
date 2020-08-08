@@ -30,7 +30,6 @@ Different models have been implemented. The table below corresponds to my best m
 
 |Layer | Name            | Size         |
 | -----| ----------------|--------------|
-
 |0     | input\_layer    | (96, 96, 1)  |
 |1     | Conv2D          | (96, 96, 64) |
 |2     | MaxPooling2D    | (96, 96, 64) |
